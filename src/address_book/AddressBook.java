@@ -3,7 +3,7 @@ package address_book;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class AddressBookImplementation {
+public class AddressBook {
 	 Scanner scanner = new Scanner(System.in);
 	    ArrayList<Person> personList = new ArrayList<Person>();
 
@@ -114,7 +114,7 @@ public class AddressBookImplementation {
 
 	    public static void main(String[] args) {
 	        System.out.println("Welcome to the Address Book Problem");
-	        AddressBookImplementation adressBookImplementation = new AddressBookImplementation();
+	        AddressBook adressBookImplementation = new AddressBook();
 	        boolean condition = true;
 
 	        while (condition == true) {
