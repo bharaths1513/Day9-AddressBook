@@ -1,0 +1,2 @@
+module address_book {
+}
